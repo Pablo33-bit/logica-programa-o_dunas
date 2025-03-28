@@ -22,7 +22,7 @@ print(divisao)
 
 #Potência 
 
-potencia=numero1**numero1
+potencia=numero1**numero2
 print(potencia)
 
 #Modulo
