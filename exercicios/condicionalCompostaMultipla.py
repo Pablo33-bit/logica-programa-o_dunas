@@ -18,3 +18,17 @@ elif time1 < time2 :
     print("Time 2 venceu")
 else:
     print("Empate")
+
+# Condicional Composta Multipla
+nota= float(input("Qual sua nota?"))
+if nota <=0 or nota >10:
+    print("Nota invalida")
+elif nota >= 9:
+    print("Aprovado com louvor")
+elif nota >=7:
+    print("Aprovado")
+elif nota >= 5:
+    print("Recuperacao")
+else:
+    print("Reprovado")
+    
